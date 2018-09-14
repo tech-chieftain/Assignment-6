@@ -29,7 +29,6 @@ function getButton(btn) {
             }
             operator = btn.dataset.value;
             var temp1 = "\(";
-            alert(result.innerHTML.includes("("));
             if (!result.innerHTML.includes("(")) {
                 result.innerHTML = screen.innerHTML + " " + btn.innerHTML + " ";
             } else {
